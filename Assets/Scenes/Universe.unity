@@ -392,7 +392,7 @@ GameObject:
   - component: {fileID: 95155220}
   - component: {fileID: 95155219}
   m_Layer: 5
-  m_Name: Btn1 (4)
+  m_Name: BtnMars
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -548,7 +548,7 @@ GameObject:
   - component: {fileID: 125823343}
   - component: {fileID: 125823342}
   m_Layer: 5
-  m_Name: Btn1 (1)
+  m_Name: BtnMercury
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2105,7 +2105,7 @@ GameObject:
   - component: {fileID: 636819530}
   - component: {fileID: 636819529}
   m_Layer: 5
-  m_Name: Btn1 (9)
+  m_Name: BtnSun
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3658,7 +3658,7 @@ GameObject:
   - component: {fileID: 1188023332}
   - component: {fileID: 1188023331}
   m_Layer: 5
-  m_Name: Btn1 (3)
+  m_Name: BtnEarth
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4031,7 +4031,7 @@ GameObject:
   - component: {fileID: 1254791274}
   - component: {fileID: 1254791273}
   m_Layer: 5
-  m_Name: Btn1 (6)
+  m_Name: BtnSaturn
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4187,7 +4187,7 @@ GameObject:
   - component: {fileID: 1297355528}
   - component: {fileID: 1297355527}
   m_Layer: 5
-  m_Name: Btn1 (5)
+  m_Name: BtnJupiter
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4643,7 +4643,7 @@ GameObject:
   - component: {fileID: 1431332029}
   - component: {fileID: 1431332028}
   m_Layer: 5
-  m_Name: Btn1 (8)
+  m_Name: BtnNeptune
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4799,7 +4799,7 @@ GameObject:
   - component: {fileID: 1433816253}
   - component: {fileID: 1433816252}
   m_Layer: 5
-  m_Name: Btn1 (7)
+  m_Name: BtnUranus
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4955,7 +4955,7 @@ GameObject:
   - component: {fileID: 1459340325}
   - component: {fileID: 1459340324}
   m_Layer: 5
-  m_Name: Btn1
+  m_Name: BtnVolver
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5848,7 +5848,7 @@ GameObject:
   - component: {fileID: 1697561360}
   - component: {fileID: 1697561359}
   m_Layer: 5
-  m_Name: Btn1 (2)
+  m_Name: BtnVenus
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
