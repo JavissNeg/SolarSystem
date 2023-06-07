@@ -133,7 +133,7 @@ public class OnClick : MonoBehaviour
 
     public void OnDefault()
     {
-        onSun = true;
+        onSun = false;
         onMercury = false;
         onVenus = false;
         onEarth = false;
