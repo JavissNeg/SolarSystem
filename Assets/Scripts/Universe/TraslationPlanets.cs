@@ -33,7 +33,7 @@ public class TraslationPlanets : MonoBehaviour
 
     private void FixedUpdate()
     {
-        
+        Gravity();
     }
 
     void Gravity()

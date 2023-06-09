@@ -4541,6 +4541,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   tps: {fileID: 1959232951}
   menu: {fileID: 1760031573}
+  menuInstruction: {fileID: 1621093938}
   cam: {fileID: 1017783396}
   planet:
   - {fileID: 154629096}
@@ -5536,7 +5537,7 @@ GameObject:
   - component: {fileID: 1621093937}
   - component: {fileID: 1621093936}
   m_Layer: 5
-  m_Name: Canvas
+  m_Name: Instruction
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

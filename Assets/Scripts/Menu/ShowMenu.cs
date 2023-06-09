@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
+using Unity.VisualScripting;
 using UnityEditor;
 using UnityEngine;
 using UnityEngine.SceneManagement;
@@ -10,6 +11,8 @@ public class ShowMenu : MonoBehaviour
 {
     public TPSCamera tps;
     public Canvas menu;
+    public Canvas menuInstruction;
+
     public static bool isShowMenu;
     [Header("Camara secundaria:")]
     public GameObject cam;
@@ -31,11 +34,20 @@ public class ShowMenu : MonoBehaviour
             tps.isLock = isShowMenu;
         }
 
+        if (isShowMenu)
+        {
+            menuInstruction.GameObject().SetActive(false);
+        }
+        else
+        {
+            menuInstruction.GameObject().SetActive(true);
+        }
+
         if (OnClick.onMercury)
         {
             cam.transform.position = new Vector3(planet[0].transform.position.x,
                 planet[0].transform.position.y,
-                planet[0].transform.position.z - 100);
+                planet[0].transform.position.z - 10);
         }
 
         if (OnClick.onVenus)
