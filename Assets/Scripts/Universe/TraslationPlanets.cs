@@ -33,7 +33,7 @@ public class TraslationPlanets : MonoBehaviour
 
     private void FixedUpdate()
     {
-        Gravity();
+        
     }
 
     void Gravity()
@@ -50,7 +50,6 @@ public class TraslationPlanets : MonoBehaviour
                 a.GetComponent<Rigidbody>().AddForce((b.transform.position - a.transform.position).normalized *
                     (G * (m1 * m2) / (r * r)));
             }
-            
         }
 
         m1 = moon.GetComponent<Rigidbody>().mass;

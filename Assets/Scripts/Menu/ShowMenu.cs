@@ -35,7 +35,7 @@ public class ShowMenu : MonoBehaviour
         {
             cam.transform.position = new Vector3(planet[0].transform.position.x,
                 planet[0].transform.position.y,
-                planet[0].transform.position.z - 10);
+                planet[0].transform.position.z - 100);
         }
 
         if (OnClick.onVenus)
